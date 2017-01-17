@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NavItem">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qPX-N2-lkP">
+                    <rect key="frame" x="5" y="5" width="1" height="30"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="O8x-5j-Hnv"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRg-bg-enz">
+                    <rect key="frame" x="46" y="1" width="89" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ar-CH-xgU">
+                    <rect key="frame" x="46" y="19" width="57" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqs-j6-9N4">
+                    <rect key="frame" x="0.0" y="0.0" width="140" height="40"/>
+                    <state key="normal" image="btn_changeCity"/>
+                    <state key="selected" image="btn_changeCity_selected"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Vqs-j6-9N4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BUX-Yn-5iv"/>
+                <constraint firstItem="3Ar-CH-xgU" firstAttribute="leading" secondItem="hRg-bg-enz" secondAttribute="leading" id="BoP-fN-Ipw"/>
+                <constraint firstItem="Vqs-j6-9N4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="D60-Ey-Zkh"/>
+                <constraint firstAttribute="trailing" secondItem="hRg-bg-enz" secondAttribute="trailing" constant="5" id="Eae-Do-jxq"/>
+                <constraint firstAttribute="bottom" secondItem="qPX-N2-lkP" secondAttribute="bottom" constant="5" id="JkS-f4-FtY"/>
+                <constraint firstItem="3Ar-CH-xgU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="19" id="Lgi-Zf-HUz"/>
+                <constraint firstItem="hRg-bg-enz" firstAttribute="leading" secondItem="qPX-N2-lkP" secondAttribute="trailing" constant="40" id="MuY-VB-f6i"/>
+                <constraint firstAttribute="bottom" secondItem="hRg-bg-enz" secondAttribute="bottom" constant="18" id="N1e-Of-DX6"/>
+                <constraint firstItem="hRg-bg-enz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="1" id="RX8-ba-JIf"/>
+                <constraint firstItem="hRg-bg-enz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="1" id="X7W-Pp-Gzi"/>
+                <constraint firstItem="hRg-bg-enz" firstAttribute="leading" secondItem="qPX-N2-lkP" secondAttribute="trailing" constant="40" id="a7O-kj-Oj4"/>
+                <constraint firstAttribute="trailing" secondItem="Vqs-j6-9N4" secondAttribute="trailing" id="a9G-Te-JP1"/>
+                <constraint firstAttribute="bottom" secondItem="Vqs-j6-9N4" secondAttribute="bottom" id="bj6-4m-1MP"/>
+                <constraint firstItem="qPX-N2-lkP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="dre-5C-Rbp"/>
+                <constraint firstItem="qPX-N2-lkP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="emb-fX-SIe"/>
+                <constraint firstAttribute="trailing" secondItem="3Ar-CH-xgU" secondAttribute="trailing" constant="37" id="g8K-9t-Rvn"/>
+                <constraint firstAttribute="bottom" secondItem="3Ar-CH-xgU" secondAttribute="bottom" constant="1" id="qHS-4r-ycq"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btn" destination="Vqs-j6-9N4" id="ufP-nk-zb2"/>
+            </connections>
+            <point key="canvasLocation" x="54" y="60"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_changeCity" width="30" height="30"/>
+        <image name="btn_changeCity_selected" width="30" height="30"/>
+    </resources>
+</document>
