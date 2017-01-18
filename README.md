@@ -1,6 +1,7 @@
 #GroupBuy
 <figure class="half">
-![](https://cloud.githubusercontent.com/assets/15522180/22046303/91dc790a-dd84-11e6-8eb7-95dca95a1e3e.gif)
+
+<img src="https://cloud.githubusercontent.com/assets/15522180/22046303/91dc790a-dd84-11e6-8eb7-95dca95a1e3e.gif">
     <a href="https://cloud.githubusercontent.com/assets/15522180/22045502/82dfbe1c-dd7f-11e6-82f0-a2d2e801d587.png"><img src="https://cloud.githubusercontent.com/assets/15522180/22045502/82dfbe1c-dd7f-11e6-82f0-a2d2e801d587.png"></a>
     <a href="https://cloud.githubusercontent.com/assets/15522180/22045513/9695c0dc-dd7f-11e6-9558-dec716aa76a6.png"><img src="https://cloud.githubusercontent.com/assets/15522180/22045513/9695c0dc-dd7f-11e6-9558-dec716aa76a6.png"></a>
     <a href="https://cloud.githubusercontent.com/assets/15522180/22045514/9978c0e2-dd7f-11e6-82c3-3249d35ced0c.png"><img src="https://cloud.githubusercontent.com/assets/15522180/22045514/9978c0e2-dd7f-11e6-82c3-3249d35ced0c.png"></a>
